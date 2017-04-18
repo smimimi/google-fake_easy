@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+  /* Farbe und Rahmen um das Box-Modell besser zu erkennen: */
+  /*background-color: rgba(0,0,255,0.1);
+  border: 1px dotted rgb(255,0,0);*/
+}
+
+html {
+  font-family: arial, sans-serif;
+}
+
+#main {
+  width: 48%;
+  min-width: 484px;
+  margin: auto;
+  text-align: center;
+}
+
+#logo {
+  width: 272px;
+  height: 92px;
+  background-image: url("images/googlelogo_color_272x92dp.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: auto;
+}
+
+#local {
+  display: inline-block;
+  position: relative;
+  top: 75px;
+  left: 125px;
+  font-size: 16px;
+  color: #4285f4;
+}
+
+#search-mic {
+  position: relative;
+}
+
+#searchbox {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 44px;
+  padding: 10px;
+  margin-top: 25px;
+  background-color: white;
+  border-top: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
+  border-bottom: none;
+  box-shadow: 0 3px 2px -1px rgba(0,0,0,0.2);
+  font-size: 13px;
+}
+
+#searchbox:hover {
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
+#searchbox:focus {
+  -webkit-appearance: none;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+  outline: none;
+}
+
+#mic {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+
+[type~=submit] {
+  -webkit-appearance: none;
+  height: 36px;
+  padding: 0 16px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  margin: 30px 1.5px;
+  background-color: #f2f2f2;
+  font-size: 13px;
+  font-weight: bold;
+  color: #757575;
+}
+
+[type~=submit]:hover {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
