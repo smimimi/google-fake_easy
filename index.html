@@ -3,21 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Clone - easy</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Google Fake (Easy Version)</title>
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
 
- <nav>
+  <nav>
     <ul>
-      <li><a href="#">Gmail</a></li>
-      <li><a href="#">Bilder</a></li>
-      <li><a href="#"><div id="apps_icon"></a></li>
-      <li><a href="#"><div id="button">Anmelden</div></a></li>
+      <li><a href="#" class="link_standard">Gmail</a></li>
+      <li><a href="#" class="link_standard">Bilder</a></li>
+      <li><a href="#" id="apps-icon" title="Google-Apps">&nbsp;</a></li>
+      <li><a href="#" id="sign-in-button">Anmelden</a></li>
     </ul>
   </nav>
 
-  <div id="main">
+    <div id="main">
 
     <div id="logo">
       <p id="local">Deutschland</p>
@@ -25,8 +26,8 @@
 
     <form action="#">
       <div id="search-mic">
-        <input type="text" id="searchbox">
-        <a href="#"><img id="mic" src="images/microphone_icon.png" alt="mic-icon"></a>
+        <input type="text" autofocus id="searchbox">
+        <a href="#" title="Sprachsuche"><img id="mic" src="images/microphone_icon.png" alt="mic-icon"></a>
       </div>
       <input type="submit" value="Google-Suche">
       <input type="submit" value="Auf gut Glück!">
@@ -34,19 +35,18 @@
 
   </div>
 
- <!-- <footer>
-    <ul>
-      <li>Werbeprogramme</li>
-      <li>Unternehmen</li>
-      <li>Über Google</li>
+ <footer>
+    <ul id="lfooter">
+      <li><a href="#">Werbeprogramme</a></li>
+      <li><a href="#">Unternehmen</a></li>
+      <li><a href="#">Über Google</a></li>
     </ul>
-    <ul>
-      <li>Datenschutzerklärung</li>
-      <li>Nutzungsbedingungen</li>
-      <li>Einstellungen</li>
-      <li>Google.com verwenden</li>
+    <ul id="rfooter">
+      <li><a href="#">Datenschutzerklärung</a></li>
+      <li><a href="#">Nutzungsbedingungen</a></li>
+      <li><a href="#">Einstellungen</a></li>
     </ul>
-  </footer>-->
+  </footer>
 
 </body>
 </html>
